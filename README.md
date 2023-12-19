@@ -25,46 +25,26 @@ PyTorch es igual de potente y está siendo desarrollado por investigadores de Nv
 
 Dominar el Deep Learning no sólo consiste en conocer la intuición y las herramientas, sino también en ser capaz de aplicar estos modelos a escenarios del mundo real y obtener resultados reales y medibles para el negocio o proyecto. Es por ello que en este curso presentamos seis emocionantes retos:
 
-### 1 Problema de modelización de la pérdida de clientes (Customer Churn)
+### 01.- Predicción de Customer Churn mediante Redes Neuronales Artificiales
 
-En esta parte resolverás un desafío de análisis de datos para un banco. Te entregaremos un conjunto de datos con una gran muestra de los clientes del banco. Para crear este conjunto de datos, el banco recolectó información como la identificación del cliente, el puntaje de crédito, el género, la edad, la antigüedad, el balance, si el cliente está activo, tiene una tarjeta de crédito, etc. Durante un período de 6 meses, el banco observó si estos clientes abandonaban o permanecían en el banco.
+Esta sección aborda un desafío crucial de análisis de datos centrado en la pérdida de clientes (Customer Churn) para un banco. Se proporciona un extenso conjunto de datos que incluye información como la identificación del cliente, puntaje de crédito, género, edad, antigüedad, balance y actividad. El objetivo es desarrollar una Red Neural Artificial que, basándose en datos geo-demográficos y transaccionales, prediga si un cliente abandonará el banco o permanecerá (Customer Churn). La clasificación de todos los clientes según su probabilidad de salida se logrará mediante un modelo de Deep Learning, basado en un enfoque probabilístico. El éxito en este proyecto proporcionará un valor significativo al banco al reducir la tasa de pérdida de clientes.
 
-El objetivo es hacer una Red Neural Artificial que pueda predecir, basándose en la información geo-demográfica y transaccional dada anteriormente, si algún cliente individual dejará el banco o se quedará (pérdida de clientes/Customer Churn)
+### 02.- Desarrollo de una Red Neuronal Convolucional para el Reconocimiento de Imágenes
 
-Además, debes clasificar a todos los clientes del banco, basándose en su probabilidad de salida. Para ello, deberás utilizar el modelo correcto de Deep Learning, que se basa en un enfoque probabilístico.
+Esta sección se enfoca en la implementación de una Red Neuronal Convolucional capaz de detectar objetos en imágenes, inicialmente gatos o perros. La versatilidad de este modelo permite su adaptación para detectar otros objetos simplemente cambiando las imágenes de entrada. Se destaca la posibilidad de entrenar el modelo para reconocer tumores en imágenes cerebrales u otros objetos. El enfoque es aplicable incluso a nivel personal, como predecir la mascota de alguien a partir de una foto. La sección demuestra la flexibilidad y potencial de las Redes Neuronales Convolucionales en diversas aplicaciones.
 
-Si tienes éxito en este proyecto, crearás un valor agregado significativo para el banco. Aplicando el modelo de Deep Learning, el banco puede reducir significativamente la tasa de pérdida de clientes (Customer Churn).
+### 03.- Predicción del Precio de Acciones con Redes Neuronales Recurrentes (LSTM)
 
-### 2 Reconocimiento de imágenes
+En esta fase, se desarrolla un modelo de Deep Learning que se considera cercano a la "Inteligencia Artificial". Se introducen las Redes Neuronales Recurrentes, específicamente las LSTM (Long Short Term Memory), conocidas por su capacidad de mantener memoria a largo plazo. El desafío implica predecir el precio real de las acciones de Google, utilizando este modelo poderoso. Se destaca la relevancia de este enfoque innovador en el campo del Deep Learning y su aplicación práctica para la predicción financiera.
 
-En esta parte, crearás una Red Neuronal Convolucional que es capaz de detectar varios objetos en imágenes. Implementaremos este modelo del Deep Learning para reconocer un gato o un perro en un conjunto de imágenes. Sin embargo, este modelo también puede ser utilizado para detectar cualquier otra cosa y te mostraremos cómo hacerlo - simplemente cambiando las imágenes en la carpeta de entrada.
+### 04.- Detección de Fraude mediante Modelos de Deep Learning no Supervisados
 
-Por ejemplo, podrás entrenar el mismo modelo en un conjunto de imágenes del cerebro, para detectar si tienen un tumor o no. Pero si quieres mantenerlo adaptado a los gatos y perros, entonces podrás literalmente tomar una foto de tu gato o tu perro, y el modelo podrá predecir qué mascota tienes. Incluso lo hemos probado en el perro de Hadelin!
+Esta sección aborda el creciente mercado de detección y prevención de fraudes, con un valor proyectado de 33.19 billones de dólares para 2021. Se presenta el desafío empresarial de la detección de fraude en aplicaciones de tarjetas de crédito. Los participantes crearán un modelo de Deep Learning para un banco, utilizando un conjunto de datos que incluye información de clientes solicitantes de tarjetas de crédito avanzadas. La tarea consiste en detectar posibles fraudes en estas aplicaciones, proporcionando al banco una lista explícita de clientes que podrían haber realizado trampas en sus solicitudes.
 
-### 3 Predicción del precio de las acciones
+### 05.- y 06.- Construcción de Sistemas de Recomendación con Deep Learning
 
-En esta parte, crearás uno de los modelos más poderosos del Deep Learning. Incluso llegaremos a decir que crearás el modelo de Deep Learning más cercano a la "Inteligencia Artificial". ¿Por qué? Porque este modelo, como nosotros, tendrá memoria a largo plazo.
+Este segmento se centra en la creación de sistemas de recomendación, una habilidad altamente demandada en la actualidad. Se trabajará con un conjunto de datos similar al de Netflix, incluyendo numerosas películas y miles de usuarios con calificaciones que van del 1 al 5. El sistema de recomendación final, construido con dos modelos diferentes de Deep Learning (Deep Belief Networks y AutoEncoders), será capaz de predecir las calificaciones de películas no vistas por los clientes. Este desafío ofrece una oportunidad única para destacarse en la creación de sistemas de recomendación efectivos y complejos, proporcionando un valor significativo en el mundo de la ciencia de datos.
 
-La rama del Deep Learning que facilita esto es la de las Redes Neuronales Recurrentes. Las RNN clásicas tienen poca memoria, y no eran ni populares ni poderosas por esta razón exacta. Pero una reciente e importante mejora en las Redes Neuronales Recurrentes dio lugar a la popularidad de las LSTM (Long Short Term Memory RNNs) que ha cambiado completamente el campo de juego. Estamos muy emocionados de incluir estos métodos de vanguardia del Deep Learning en nuestro curso.
+####
 
-En esta sección aprenderás a implementar este modelo extremadamente poderoso, y nosotros aceptaremos el reto de usarlo para predecir el precio real de las acciones de Google. Un desafío similar ya fue asumido por los investigadores de la Universidad de Stanford y nosotros trataremos de hacerlo al menos tan bien como ellos.
-
-### 4 Detección de Fraude
-
-Según un reciente informe publicado por Markets & Markets, el mercado de la detección y prevención de fraudes tendrá un valor de 33.19 billones de dólares para el año 2021. Se trata de una industria enorme y la demanda de habilidades avanzadas de Deep Learning seguirá creciendo. Por eso hemos incluido este caso de estudio en el curso.
-
-Esta es la primera parte del Volumen 2 - Modelos de Deep Learning no supervisados. El reto empresarial aquí es la detección del fraude en las aplicaciones de tarjetas de crédito. Vas a crear un modelo de Deep Learning para un banco y te proporcionaremos un conjunto de datos que contiene información sobre los clientes que solicitan una tarjeta de crédito avanzada.
-
-Estos son los datos que los clientes proporcionaron al llenar el formulario de solicitud. Tu tarea es detectar el fraude potencial dentro de estas aplicaciones. Esto significa que al final del desafío, literalmente obtendrás una lista explícita de los clientes que potencialmente hicieron trampa en sus solicitudes.
-
-### 5 y 6 Sistemas de recomendación
-
-Desde las sugerencias de productos de Amazon hasta las recomendaciones de películas de Netflix - los buenos sistemas de recomendación son muy valiosos en el mundo de hoy. Y los especialistas que pueden crearlos son algunos de los científicos de datos mejor pagados del planeta.
-
-Trabajaremos en un conjunto de datos que tenga exactamente las mismas características que el conjunto de datos de Netflix: un montón de películas y miles de usuarios, que han valorado las películas que han visto. Las calificaciones van del 1 al 5, exactamente como en el conjunto de datos de Netflix, lo que hace que el Sistema de Recomendaciones sea más complejo de construir que en el caso de las calificaciones fueran que son sencillamente "Me Gusta" o "No me gusta".
-
-Tu sistema de recomendación final será capaz de predecir las clasificaciones de las películas que los clientes no vieron. Por consiguiente, al clasificar las predicciones de 5 a 1, tu modelo de Deep Learning podrá recomendar qué películas debería ver cada usuario. Crear un sistema de recomendación tan poderoso es un gran reto, así que nos daremos dos oportunidades. Eso significa que lo construiremos con dos modelos diferentes de Deep Learning.
-
-Nuestro primer modelo será Deep Belief Networks, máquinas complejas de Boltzmann que se abordarán en la Parte 5. Luego, nuestro segundo modelo será con los poderosos AutoEncoders, que personalmente, son mis favoritos. Podrás apreciar el contraste entre su simplicidad, y lo que son capaces de hacer.
-
-E incluso podrás aplicarlo a ti mismo o a tus amigos. La lista de películas será explícita, así que sólo tendrás que calificar las películas que ya has visto, introducir tus calificaciones en el conjunto de datos, ejecutar tu modelo y el sistema de recomendación te dirá con exactitud qué películas te encantarán si no tienes idea de qué ver en Netflix.
+Lalo Lozas
