@@ -1,3 +1,5 @@
+# Deep Learning
+
 ## Motivación y temas
 
 Dentro de esta clase trabajaremos en conjuntos de datos del mundo real, para resolver problemas de negocios del día a día (Definitivamente no los aburridos conjuntos de datos de clasificación de iris o dígitos que vemos en todos los cursos). Aquí, trabajaremos en seis desafíos del mundo real:
