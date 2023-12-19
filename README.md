@@ -1,44 +1,4 @@
-# Repositorio del Curso [Deep Learning de A a la Z: Redes Neuronales al Completo](https://cursos.frogamesformacion.com/courses/deep-learning-az)
-## Creado por [Kirill Eremenko](https://www.udemy.com/user/kirilleremenko/) y [Hadelin de Ponteves](https://www.udemy.com/user/hadelin-de-ponteves/)
-## Traducido al español por [Juan Gabriel Gomila Salas](https://www.udemy.com/user/juangabriel2)
-
-# Actualizado en Agosto de 2023
-
-En la estructura del proyecto encontrarás tres carpetas:
-- Additional Materials: con las transparencias y slides usados en las clases de teoría del curso
-- Original: los ficheros de Python en formato script .py originales del curso, con los que se grabaron las clases
-- Update: ficheros de Python y también Jupyter Notebook actualizados en Agosto de 2023.
-
-De este modo podrás combinar lo que ves en los vídeos con el código en la última versión para siempre tener el curso 100% actualizado. También te hemos preparado el código directamente en Google Colab por si prefieres seguirlo online sin necesidad de instalar Python en tu ordenador. Puedes acceder a la carpeta de materiales de Colab [desde aquí](https://drive.google.com/drive/folders/1YmMQL5TNmMTV5xK2IK4R8u9Dzv5jCwrc?usp=share_link)
-
----
-
-
-La inteligencia artificial está creciendo exponencialmente, sin lugar a dudas. Los vehículos que se conducen por sí mismos están recorriendo millones de kilómetros, IBM Watson está diagnosticando a pacientes mejor que ejércitos de médicos y el AlphaGo de Google Deepmind venció al campeón mundial de Go - un juego en el que la intuición juega un papel clave.
-
-Pero cuanto más avanza la IA, más complejos se vuelven los problemas que deben ser solucionados. Y solamente el Deep Learning puede solucionar problemas tan complejos y por eso está en el corazón de la Inteligencia Artificial.
-
-## ¿Por qué Deep Learning de la A a la Z?
-
-Aquí hay cinco razones por las que pensamos que el Curso de Deep Learning A de la a la Z es totalmente diferente, y se destaca de la gran cantidad de programas de capacitación que existen:
-
-### 1. ESTRUCTURA SÓLIDA
-
-Lo primero y más importante en lo que nos centramos es en dotar al curso de una estructura sólida. El Deep Learning es tema muy extenso y complejo y para navegar por este laberinto se necesita una visión clara y global del mismo.
-
-Por eso agrupamos las clases del curso en dos volúmenes, que representan las dos ramas fundamentales del Deep Learning: Deep Learning supervisado y Deep Learning no supervisado. Con cada volumen centrado en tres algoritmos distintos, hemos comprobado que esta es la mejor estructura para dominar el Deep Learning.
-
- ### 2. CLASES DE INTUICIÓN
-
-Hay tantos cursos y libros que te bombardean con la teoría, las matemáticas y la codificación, pero se olvidan de explicar, quizás, la parte más importante: por qué estás haciendo lo que estás haciendo. Y es por eso que este curso es tan diferente. Nos enfocamos en desarrollar una idea intuitiva para los conceptos detrás de los algoritmos del Deep Learning.
-
-Con nuestras clases de intuición estarás seguro de que entiendes todas las técnicas a un nivel instintivo. Y una vez que procedas con los ejercicios prácticos de codificación podrás ver por ti mismo lo significativa que será tu experiencia. Esto es un punto de inflexión.
-
-### 3. PROYECTOS INTERESANTES
-
-¿Estás cansado de los cursos basados en conjuntos de datos sobreutilizados y obsoletos?
-
-¿Sí? Bueno, entonces te llevarás una sorpresa.
+## Motivación y temas
 
 Dentro de esta clase trabajaremos en conjuntos de datos del mundo real, para resolver problemas de negocios del día a día (Definitivamente no los aburridos conjuntos de datos de clasificación de iris o dígitos que vemos en todos los cursos). Aquí, trabajaremos en seis desafíos del mundo real:
 
@@ -49,67 +9,15 @@ Dentro de esta clase trabajaremos en conjuntos de datos del mundo real, para res
 - Máquinas de Boltzmann para crear un Sistema de Recomendaciones
 - Los AutoEncoders apilados* para enfrentarnos al reto por el premio del millón de dólares de Netflix
 
-*Los AutoEncoders apilados son una nueva técnica del Deep Learning que hace un par de años aun no existía. Hasta ahora no hemos visto este método explicado en ningún otro lugar con suficiente profundidad.
+*Los AutoEncoders apilados son una nueva técnica del Deep Learning que hace un par de años aun no existía. Hasta ahora no hemos visto este método 
 
-### 4. EJERCICIOS PRÁCTICOS DE CODIFICACIÓN
-
-En el curso de Deep Learning de la A a la Z programamos contigo. Cada clase práctica comienza con un script en blanco y escribimos el código desde cero. De esta manera puedes seguir y entender exactamente cómo el código se junta y lo que cada línea significa.
-
-Además, a propósito estructuraremos el código de tal manera que puedas descargarlo y aplicarlo en tus propios proyectos desde dos fuentes diferentes: Github para usarlo en tu propio ordenador y Google Drive, para que puedas ejecutarlo gracias a Google Collaborate. Asimismo, explicaremos paso a paso dónde y cómo modificar el código para insertar TU conjunto de datos, para ajustar el algoritmo a tus necesidades, y así obtener la salida que buscas.
-
-Este es un curso que de forma natural podrás aplicar en tu día a día en tu propio trabajo.
-
-### 5. ASISTENCIA EN EL CURSO.
-
-¿Alguna vez has tomado un curso o leído un libro en el que tienes preguntas pero no puedes contactar con el autor?
-
-Bueno, este curso es diferente. Estamos totalmente comprometidos en hacer de este, el curso de Deep Learning más disruptivo y poderoso del planeta. Con eso viene la responsabilidad de estar constantemente disponible cuando necesites nuestra ayuda.
-
-De hecho, ya que físicamente también necesitamos comer y dormir, hemos reunido un equipo profesional de científicos de datos para ayudarnos. Cada vez que hagas una pregunta, recibirás una respuesta de nuestra parte en un plazo no mayor a 48 horas.
-
-No importa lo compleja que sea tu consulta, estaremos allí. Nuestro objetivo final es que tengas éxito.
-
-### Las herramientas
+## Herramientas
 
 TensorFlow y PyTorch son las dos librerías de código abierto más populares para el Deep Learning y en este curso aprenderás las dos.
 
 TensorFlow fue desarrollado por Google y se utiliza en su sistema de reconocimiento de voz, en el nuevo producto de Google Photos, gmail, google search y mucho más. Las empresas que utilizan TensorFlow incluyen AirBnb, Airbus, Ebay, Intel, Uber y mcuhas más.
 
 PyTorch es igual de potente y está siendo desarrollado por investigadores de Nvidia y universidades líderes: Stanford, Oxford, ParisTech. Las empresas que utilizan PyTorch incluyen Twitter, Saleforce y Facebook.
-
-Entonces, ¿qué es mejor y para qué?
-
-Pues, en este curso tendrás la oportunidad de trabajar con los dos y podrás averiguar cuándo es mejor TensorFlow y cuándo PyTorch es el mejor camino a seguir. A lo largo de nuestras clases comparamos los dos y te damos consejos e ideas sobre qué podría funcionar mejor en determinadas circunstancias.
-
-Lo interesante es que ambas librerías tienen apenas unos pocos años de antigüedad. A eso nos referimos cuando decimos que en este curso te enseñamos los modelos y técnicas más vanguardistas del Deep Learning.
-
-### Más herramientas
-
-Theano es otra librería de código abierto de Deep Learning. Es muy parecida a TensorFlow en su funcionalidad, pero aun así la cubriremos.
-
-Keras es una increíble biblioteca para implementar modelos de Deep Learning. Actúa como un envoltorio para Theano y TensorFlow. Con Keras podemos crear potentes y complejos modelos de Deep Learning con sólo unas pocas líneas de código. Esto es lo que te permitirá tener una visión general de lo que estás creando. Todo lo que hagas se verá tan claro y estructurado gracias a esta librería, que realmente obtendrás la intuición y comprensión de lo que estás haciendo.
-
-Incluso más herramientas
-
-Scikit-learn, la biblioteca más práctica de Machine Learning. La usaremos principalmente:
-
-Para evaluar el rendimiento de nuestros modelos con la técnica más relevante, el k-fold cross validation
-
-Para mejorar nuestros modelos con un efectivo parametro personalizado
-
-Para pre-procesar nuestros datos, para que nuestros modelos puedan aprender en las mejores condiciones
-
-Y por supuesto, tenemos que mencionar a las librerías usuales de nuestros cursos de machine learning y deep learning. Todo este curso está basado en Python y en cada una de sus secciones obtendrás horas y horas de invaluable experiencia práctica de codificación.
-
-Adicionalmente, a lo largo del curso utilizaremos numpy para hacer altos cálculos y manipular matrices de altas dimensiones, matplotlib para hacer gráficos detallados y pandas para importar y manipular conjuntos de datos de la forma más eficiente.
-
-## ¿A quién va dirigido este curso?
-
-Como puedes ver, hay muchas herramientas diferentes en el espacio del Deep Learning y en este curso nos aseguramos de mostrarte las más importantes y progresivas para que cuando termines con el curso de Deep Learning de la A a la Z tus habilidades estén a la vanguardia de la tecnología actual.
-
-Si apenas estás comenzando en el Deep Learning, entonces encontrarás este curso de gran utilidad. El curso de Deep Learning de la A a la Z está estructurado en torno a enfoques especiales de codificación de planos, lo que significa que no estarás atascado en programaciones innecesarias o complejidades matemáticas y en cambio estarás aplicando las técnicas del Deep Learning desde el principio del curso. Construirás tus conocimientos desde el inicio y verás como con cada clase te sentirás cada vez más seguro.
-
-Si ya tienes experiencia con el Deep Learning, encontrarás este curso refrescante, inspirador y muy práctico. Dentro del curso de Deep Learning de la A a la Z dominarás algunos de los algoritmos y técnicas del Deep Learning más vanguardistas (algunos de los cuales ni siquiera existían hace un año) y a través de este curso obtendrás una enorme cantidad de valiosa experiencia práctica con los retos empresariales del mundo real. Además, en él encontrarás inspiración para explorar nuevas habilidades y aplicaciones del Deep Learning.
 
 ## Estudio de casos del mundo real
 
@@ -157,12 +65,4 @@ Tu sistema de recomendación final será capaz de predecir las clasificaciones d
 
 Nuestro primer modelo será Deep Belief Networks, máquinas complejas de Boltzmann que se abordarán en la Parte 5. Luego, nuestro segundo modelo será con los poderosos AutoEncoders, que personalmente, son mis favoritos. Podrás apreciar el contraste entre su simplicidad, y lo que son capaces de hacer.
 
-E incluso podrás aplicarlo a ti mismo o a tus amigos. La lista de películas será explícita, así que sólo tendrás que calificar las películas que ya has visto, introducir tus calificaciones en el conjunto de datos, ejecutar tu modelo y ¡voilà! El sistema de recomendación te dirá con exactitud qué películas te encantarán si no tienes idea de qué ver en Netflix!
-
-## Resumen
-
-En conclusión, este es un programa de formación muy emocionante, lleno de tutoriales de intuición, ejercicios prácticos y casos de estudio del mundo real.
-
-Estamos súper entusiasmados con el Deep Learning y esperamos verte pronto en clases. Recuerda que puedes apuntarte al curso [Deep Learning de A a la Z: Redes Neuronales al Completo](https://cursos.frogamesformacion.com/courses/deep-learning-az) con descuento y soporte de los instructores solamente en Frogames Formación
-
-Juan Gabriel, Kirill y Hadelin
+E incluso podrás aplicarlo a ti mismo o a tus amigos. La lista de películas será explícita, así que sólo tendrás que calificar las películas que ya has visto, introducir tus calificaciones en el conjunto de datos, ejecutar tu modelo y el sistema de recomendación te dirá con exactitud qué películas te encantarán si no tienes idea de qué ver en Netflix.
