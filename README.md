@@ -45,6 +45,4 @@ Esta sección aborda el creciente mercado de detección y prevención de fraudes
 
 Este segmento se centra en la creación de sistemas de recomendación, una habilidad altamente demandada en la actualidad. Se trabajará con un conjunto de datos similar al de Netflix, incluyendo numerosas películas y miles de usuarios con calificaciones que van del 1 al 5. El sistema de recomendación final, construido con dos modelos diferentes de Deep Learning (Deep Belief Networks y AutoEncoders), será capaz de predecir las calificaciones de películas no vistas por los clientes. Este desafío ofrece una oportunidad única para destacarse en la creación de sistemas de recomendación efectivos y complejos, proporcionando un valor significativo en el mundo de la ciencia de datos.
 
-####
-
-Lalo Lozas
+#### ----- Lalo Lozas -----
